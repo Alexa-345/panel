@@ -1,5 +1,5 @@
 system_update () {
-sudo timedatectl set-timezone Asia/Manila
+sudo timedatectl set-timezone Asia/Riyadh
 timedatectl
 apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
